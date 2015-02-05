@@ -13,7 +13,7 @@ body {
 .logo {
   padding: 63px 0 37px 0;
 }
-.title {
+h1 {
   font-size: 32px;
   font-weight: 400;
   margin: 0;
