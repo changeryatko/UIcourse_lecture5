@@ -1,0 +1,74 @@
+body {
+  font: 400 12px "PT Sans";
+  background: #050505 url("../images/bg-bottom-gradient.png") no-repeat center bottom;
+  padding: 0;
+  margin: 0;
+}
+.inspiration {
+  background: #050505 url("../images/bg-top-gradient.png") no-repeat center top;
+  color: white;
+  text-align: center;
+  height: 436px;
+}
+.logo {
+  padding: 63px 0 37px 0;
+}
+.title {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+.desc {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 23px 0 43px;
+  opacity: .5;
+}
+.btn-download {
+  font-size: 24px;
+  font-family: "PT Sans";
+  border: 0 none;
+  border-radius: 4px;
+  background-color: rgb( 38, 168, 219 );
+  box-shadow: 0px 3px 0px 0px rgb( 18, 130, 174 );
+  width: 261px;
+  height: 51px;
+  color: white;
+  outline: none;
+}
+article {
+  color: white;
+  overflow: hidden;
+  padding-top: 72px;
+}
+article .desc {
+  line-height: 24px;
+  width: 48%;
+  margin-bottom: 30px;
+}
+article.one {
+  background: transparent url("../images/art-bg-1.png") no-repeat right bottom;
+}
+article.two {
+  background: transparent url("../images/art-bg-2.png") no-repeat left bottom;
+  padding: 193px 0 0;
+}
+article.two .wrap {
+  padding-left: 53%;
+}
+article.three {
+  padding: 193px 0 115px;
+  background: transparent url("../images/art-bg-3.png") no-repeat 78% center;
+}
+article .wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+footer {
+  color: white;
+  text-align: center;
+  padding: 65px 0 61px;
+}
+footer .btn-download {
+  margin-top: 51px;
+}
